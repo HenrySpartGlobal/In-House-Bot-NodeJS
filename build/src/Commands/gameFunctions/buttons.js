@@ -24,9 +24,6 @@ export function queue(queue, id) {
     const row1 = new ActionRowBuilder().addComponents(new ButtonBuilder()
         .setCustomId("remove|" + id)
         .setLabel("Remove Sign Up")
-        .setStyle(ButtonStyle.Danger), new ButtonBuilder()
-        .setCustomId("force|" + id)
-        .setLabel("Force start")
         .setStyle(ButtonStyle.Danger));
     return [row, row1];
 }
