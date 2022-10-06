@@ -8,10 +8,9 @@ The bot is made to be used by trustworthy players who want to improve and play i
 # Getting started
 
 ## Prerequisites 
+- LTS NodeJs (16.17.1)
+- [Discord Bot](https://discord.com/developers/applications) with a Token 
 
-```
-LTS NodeJs (16.17.1)
-```
 ### Running the bot
 
 Clone or Download this repo
@@ -65,8 +64,8 @@ If there are fewer than **6** votes within the 2 minutes, the game will be consi
  
 ## Suggestions 
 
-- Host this on a server. This way, games are readily available and more importantly, the wins do not reset. I can provide a Video tutorial if I get enough requests.
-- I suggest creating 1 text channel where players can initiate `!game`, potentially in a category. 
+- For the best experience, host this on a server. This way, games are readily available and more importantly, the leaderboard do not reset. I can provide a Video tutorial if I get enough requests.
+- I suggest creating a specific text channel where players encouraged to initiate `!game`, and no where else. Like i mentioned at the start, this bot will not translate well in an uncontrolled environment.  
 
 ## Testing features
 ### Turn on force start
