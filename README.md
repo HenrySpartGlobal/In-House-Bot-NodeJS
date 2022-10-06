@@ -39,6 +39,10 @@ Run the bot
 node src/index.js
 ```
 
+# Demo
+
+![](https://github.com/HenrySpartGlobal/In-House-Bot-NodeJS/blob/main/media/DefiantDistantBass-size_restricted.gif)
+
 # Use case and behaviour  
 When a match is initiated, 5 buttons appear that represents a role in League of Legends. Once each position has 2 players (10 total players) the game starts.  3 Voice channels are created. 1 voice channel for each team. Then there is a lobby voice channel created which both teams can enter. All 10 members must be ready for the game to be tracked. 
 
