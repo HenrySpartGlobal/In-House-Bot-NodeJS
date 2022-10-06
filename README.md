@@ -73,9 +73,7 @@ If there are fewer than **6** votes within the 2 minutes, the game will be consi
 Forcefully start a game without 10 members (for testing).
 Navigate to `build/src/Commands/gameFunctions/buttons.js`
 
-At the very bottom of the file change this:
-
-Before:
+At the very bottom of the file, update this:
 ```javascript
 
     const row1 = new ActionRowBuilder().addComponents(new ButtonBuilder()
@@ -86,8 +84,6 @@ Before:
 ```
 
 To this:
-
-After:
 ```javascript
 
     const row1 = new ActionRowBuilder().addComponents(new ButtonBuilder()
@@ -98,7 +94,6 @@ After:
         .setLabel("Force start")
         .setStyle(ButtonStyle.Danger));
     return [row, row1];
-
 ```
 
 Save and re-run - `node src/index.js`.
@@ -109,7 +104,6 @@ Update both 6's in this [file](https://github.com/HenrySpartGlobal/In-House-Bot-
 ## Notes 
 1. The auto-generated voice lobbies are not deleted once a game is over. Manual deletion is required. 
 2. Any member of the server can run the `!game` command, in any channel.
-
 
 # Contributing
 Please read CONTRIBUTING.md for details on our code of conduct, and the process for submitting pull requests to us.
