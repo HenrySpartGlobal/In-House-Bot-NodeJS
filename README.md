@@ -1,3 +1,5 @@
+**NOTE: Improved version available here:**  https://github.com/HenrySpartGlobal/InHouseQueue
+
 # Simple League of Legends In-House Bot 
 A discord bot designed to organise League of Legends in-house custom games. 
 Written in NodeJS using Discord.js
